@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button, Table, Modal } from 'semantic-ui-react'
 import ContactForm from './ContactForm'
+// import '../Styles.css'
+// import Logo from '../imgs/logo.png'
 
 const Contact = ({ id, firstName, phone, remove, edit }) => (
   <Table.Row id={id}>
@@ -25,6 +27,7 @@ const Contact = ({ id, firstName, phone, remove, edit }) => (
       </Modal>
     </Table.Cell>
   </Table.Row>
+  // <img src={Logo} />
 )
 
 export default Contact
